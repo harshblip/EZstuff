@@ -7,15 +7,15 @@
         <item
             android:id="@+id/nav_frag1"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Fragment 1" />
+            android:title="Your Subjects" />
         <item
             android:id="@+id/nav_frag2"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Fragment 2" />
+            android:title="All Subjects" />
         <item
             android:id="@+id/nav_frag3"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Fragment 3" />
+            android:title="Contacts" />
     </group>
 
 

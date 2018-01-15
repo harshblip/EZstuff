@@ -5,9 +5,112 @@
     tools:context="com.example.user.ezstuff.Fragment1">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
+
+    <LinearLayout android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="YOUR SUBJECTS HERE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Engineering Drawing"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:paddingTop="@dimen/activity_horizontal_margin"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:text="Monday 2.30PM" />
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:paddingTop="@dimen/activity_horizontal_margin"
+                android:text="Manufacturing Practices"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:text="Tuesday 8.00AM"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:paddingTop="@dimen/activity_horizontal_margin"
+                android:text="Physics Laboratory"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:text="Thursday 3.30PM"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:paddingTop="@dimen/activity_horizontal_margin"
+                android:text="Chemistry Laboratory"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:text="Friday 10.00AM"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/container">
+        </LinearLayout>
+
+    </LinearLayout>
 
 </FrameLayout>
