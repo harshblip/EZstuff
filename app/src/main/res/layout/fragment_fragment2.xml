@@ -1,13 +1,102 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.user.ezstuff.Fragment2">
+    android:layout_height="wrap_content"
+    android:background="#90caf9"
 
-    <!-- TODO: Update blank fragment layout -->
+
+    >
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="hello" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="ED/MD"
+        android:textSize="30dp"
+        android:id="@+id/sub1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/sub1"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:text="1.H/2H Pencils
+2.ED Sheets
+3.Drafter
+4.Ruler
+5.Pins
+"
 
-</FrameLayout>
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/sub2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView7"
+        android:text="Manufacturing Practice"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+
+        android:text="1.Shoes
+2.Apron
+3.Log Sheet
+4.Pen/Pencils"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sub1"
+        android:layout_marginTop="117dp"
+        android:text="Physics Lab"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:text="1.Labcoat
+2.Practical file
+3.Pen/Pencils"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:text="Chemistry Lab "
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:text="1.Lab
+2.Practical File
+3.Pen/Pencils" />
+</RelativeLayout>
